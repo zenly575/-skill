@@ -1,0 +1,45 @@
+{
+  "name": "video-style-distillation",
+  "version": "0.1.0",
+  "displayName": "视频风格蒸馏",
+  "displayNameEn": "Video Style Distillation",
+  "description": "视频风格蒸馏专家：拆解某位自媒体博主的视频风格，蒸馏成可复用的风格档案，再据此生成同款风格的新视频。适用于模仿某博主做视频、学某达人的镜头/剪辑/口播风格等场景。支持抖音素材分析、风格七维拆解、风格档案产出、分镜脚本与视频生成。",
+  "author": {
+    "name": "zenly575",
+    "email": "zenly575@gmail.com",
+    "url": "https://github.com/zenly575"
+  },
+  "homepage": "https://github.com/zenly575/-skill",
+  "repository": "https://github.com/zenly575/-skill",
+  "license": "MIT",
+  "keywords": [
+    "视频风格",
+    "风格蒸馏",
+    "自媒体",
+    "视频生成",
+    "分镜脚本",
+    "抖音",
+    "博主模仿",
+    "AI视频"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "视频风格蒸馏",
+    "shortDescription": "拆解自媒体博主的视频风格，蒸馏成可复用的风格档案，再据此生成同款风格的新视频。",
+    "longDescription": "Video Style Distillation: Analyze a content creator's video style, distill it into a reusable style profile, then generate new videos in the same style. Supports Douyin material analysis, 7-dimension style breakdown (visual genes, narrative structure, audio, subtitles, content formula, rhythm, personality), style profile output, storyboard scripting, and AI video generation via built-in GenerateVideo or prompt-only mode.",
+    "developerName": "zenly575",
+    "category": "内容创作",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use video-style-distillation to analyze a creator's video style and generate similar videos."
+    ],
+    "brandColor": "#6C5CE7",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "screenshots": []
+  }
+}
